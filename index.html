@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- Primary CSS Sheet -->
+<link rel="stylesheet" href="index.css">
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-sm fixed-top" id="navbar">
+			<a class="navbar-brand" href="index.html"><img src="mainassets/logo_small.png" alt="logo_small" id="logoimage"></a>
+
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">ART</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">DESIGN</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">PROGRAMMING</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">PERSONAL</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">CONTACT</a>
+				</li>
+			</ul>
+		</nav>
+
+
+		<div class="container-fluid" id="toppage">
+			<div class="carousel slide" id="topcarousel" data-ride="carousel">
+				<ul class="carousel-indicators">
+					<li data-target="#topcarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#topcarousel" data-slide-to="1" class="active"></li>
+					<li data-target="#topcarousel" data-slide-to="2" class="active"></li>
+				</ul>
+
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="maincarousel/img1.png" alt="carouselImage1" class="topcarouselimage">
+					</div>
+					<div class="carousel-item">
+						<img src="maincarousel/img2.png" alt="carouselImage2" class="topcarouselimage">
+					</div>
+					<div class="carousel-item">
+						<img src="maincarousel/img3.png" alt="carouselImage3" class="topcarouselimage">
+					</div>
+				</div>
+
+				<a class="carousel-control-prev" href="#topcarousel" data-side="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#topcarousel" data-side="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row" id="aboutme">
+				<div class="col-md-6" id="aboutmebox">
+					<div id="box1"></div>
+					<img id="circleimg" alt="circleimg" src="mainassets/circleimg.jpg">
+					<div id="aboutmetitle">TYPENYNE</div>
+				</div>
+				<div class="col-sm-4" id="aboutmetextbox">
+					<text id="aboutmetext">I am a college student studying software engineering. I have a few too many hobbies to showcase in any one website so I built my own. If you would like to inquire about anything feel free to do so from my contact page.</text>
+				</div>
+			</div>
+		</div>
+
+		<!--
+		<div class="container-fluid" id="bottompage">
+			<div class="row">
+				 <div class="col-sm-3">art</div>
+				<div class="col-sm-3">programming</div>
+				<div class="col-sm-3">personal</div>
+				<div class="col-sm-3">contact</div>
+			</div>
+		</div>
+		-->
+	</body>
+</html>
